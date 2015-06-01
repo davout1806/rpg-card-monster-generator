@@ -3,7 +3,7 @@ PHP script to convert a tab delimited file into JSON format needed by http://cro
 
 How to
 =
-1. Create a tab delimited file card_data.txt make sure it includes the field headers in the first row. Example: see card_data.txt (Includes data for the jester's Deathlock (http://www.enworld.org/forum/5emonsters/showentry.php?e=22) and Huecuva (http://www.enworld.org/forum/5emonsters/showentry.php?e=38).)
+1. Create a tab delimited file card_data.txt make sure it includes the field headers (see Required Fields below) in the first row. Example: see card_data.txt (Includes data for the jester's Deathlock (http://www.enworld.org/forum/5emonsters/showentry.php?e=22) and Huecuva (http://www.enworld.org/forum/5emonsters/showentry.php?e=38).)
 
 2. run 'php JsonGenerator.php'
 
@@ -23,7 +23,7 @@ Configuration Options
 
 3. The name of the field/column used in the tab delimited file
 
-Fields Required
+Required Fields
 =
 If a value does not exist for a required field, just it empty
 
